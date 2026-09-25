@@ -310,9 +310,13 @@ main {
 }
 .project-image {
     width: 70%;
+    max-width: 220px;
+    height: auto;
     max-height: 500px;
 
     display: block;
+
+    object-fit: contain;
 
     border: 1px solid #303030;
     border-radius: 12px;
